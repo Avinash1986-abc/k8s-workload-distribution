@@ -27,4 +27,3 @@ Deploy multiple replicas on a multi-node Kubernetes cluster and examine how pods
 ## Conclusion
 Default scheduling distributed pods evenly but without a guarantee. Topology spread kept the difference between nodes at 1 pod. Anti-affinity gave strict separation but left pods Pending when replicas exceeded nodes. The application stayed available during a node failure.
 
-Screenshots are in the `screenshots` folder.
